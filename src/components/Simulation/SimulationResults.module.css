@@ -1,0 +1,40 @@
+.container {
+  margin: 1rem 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.container .innercontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .innercontainer h4 {
+  flex: 1;
+  flex-basis: auto;
+}
+
+.container .innercontainer span {
+  flex: 1;
+  flex-basis: auto;
+  text-align: left;
+}
+
+.resultitem {
+  color: red;
+  font-weight: bold;
+}
+
+.loadingText {
+  padding: 20px;
+}
+
+.loadingText > h2 {
+  text-align: center;
+}
+
+.errorText {
+  color: red;
+}
